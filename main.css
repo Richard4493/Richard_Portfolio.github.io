@@ -81,10 +81,10 @@ ul {
    
   background-image: linear-gradient(
     -270deg,
-    #155357 0%,
-    #10417a 29%,
-    #1317ff 67%,
-    #3345e2 100%
+    #f53809 0%,
+    #be2915 29%,
+    #be4414 67%,
+    #641806 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -112,7 +112,6 @@ ul {
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
-  background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -343,11 +342,14 @@ input[type=text],[type=email],[type=tel],textarea{
     .container-edu{
         padding-left: 15%;
     }
+    .edubox{
+        margin-left: 0%;
+    }
     #eduboxl{
-        margin-left:5% ;
+        margin-left:0% ;
     }
     #achieveboxl{
-        margin-left:0% ;
+        margin-left:5% ;
     }
     .infobox,.achievebox,.edubox,.skillbox,.projectbox{
         width: 80%;
