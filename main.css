@@ -90,7 +90,7 @@ ul {
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animatedtext 3s linear infinite;
   display: inline-block;
@@ -109,7 +109,7 @@ ul {
     #fff800 100%
   );
   background-size: auto auto;
-  background-clip: border-box;
+  -webkit-background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
